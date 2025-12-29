@@ -17,8 +17,8 @@ export const generateWeeklyReport = async (apiKey: string): Promise<string> => {
       .replace(/{{CURRENT_DATE}}/g, dateStr)
       .replace(/{{CURRENT_DATE_ZH}}/g, dateStrZH);
 
-    // Use gemini-2.5-flash for efficiency and search capabilities
-    const model = 'gemini-2.5-flash';
+    // Upgraded to Gemini 3.0 Flash Preview for better reasoning and speed
+    const model = 'gemini-3-flash-preview';
 
     const response = await ai.models.generateContent({
       model: model,

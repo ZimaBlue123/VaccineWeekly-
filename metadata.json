@@ -1,5 +1,5 @@
 {
   "name": "VaccineWeekly - Clinical Trial Reporter (Pro)",
-  "description": "Professional automated agent for vaccine clinical trial reporting. Runs every Friday at 16:30. Includes manual review step before sending.",
+  "description": "Professional automated agent for vaccine clinical trial reporting. Powered by Gemini 3.0. Runs every Friday at 16:30. Includes manual review step.",
   "requestFramePermissions": []
 }

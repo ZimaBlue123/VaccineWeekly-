@@ -75,7 +75,7 @@ const App: React.FC = () => {
 
       // Generate Report
       setStatus(BotStatus.GENERATING);
-      addLog("Analysing clinical trials with Gemini 2.5...", 'info');
+      addLog("Analysing clinical trials with Gemini 3.0...", 'info');
       
       const reportContent = await generateWeeklyReport(apiKey);
       setLastReport(reportContent);
